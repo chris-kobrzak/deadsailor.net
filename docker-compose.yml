@@ -11,3 +11,5 @@ services:
       - ./content:/var/lib/ghost/content:rw
     environment:
       url: http://localhost:3100
+    env_file:
+      - .env

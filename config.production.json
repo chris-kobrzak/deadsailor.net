@@ -10,20 +10,6 @@
       "filename": "/var/lib/ghost/content/data/ghost.db"
     }
   },
-  "mail": {
-    "from": "raspberrypi.adm+noply@gmail.com",
-    "transport": "SMTP",
-    "options": {
-      "service": "Gmail",
-      "host": "smtp.gmail.com",
-      "port": 465,
-      "secureConnection": true,
-      "auth": {
-        "user": "<USER>",
-        "pass": "<PASSWORD>"
-      }
-    }
-  },
   "logging": {
     "transports": [
       "file",
