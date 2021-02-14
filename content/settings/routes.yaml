@@ -1,0 +1,28 @@
+routes:
+  /plyty/columbus-duo/:
+    controller: channel
+    filter: primary_tag:plyta+tag:columbus-duo
+  /plyty/thing/:
+    controller: channel
+    filter: primary_tag:plyta+tag:thing
+  /plyty/for-her-pleasure/:
+    controller: channel
+    filter: primary_tag:plyta+tag:for-her-pleasure
+
+collections:
+  /:
+    permalink: /newsy/{slug}/
+    template: index
+    filter: primary_tag:news
+  /artysci/:
+    permalink: /artysci/{slug}/
+    template: index
+    filter: primary_tag:artysta
+  /plyty/:
+    permalink: /plyty/{slug}/
+    template: index
+    filter: primary_tag:plyta
+
+taxonomies:
+  tag: /tag/{slug}/
+  # author: /autor/{slug}/

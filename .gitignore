@@ -1,2 +1,5 @@
 .env
 .DS_Store
+content/images
+content/logs
+content/data
